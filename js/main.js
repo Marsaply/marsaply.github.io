@@ -203,6 +203,7 @@ $(document).ready(function(){
     /* 4. Newsletter ........................ */
     /* ------------------------------------- */
 
+/*
     $("#notifyMe").notifyMe();
 
     (function() {
@@ -214,7 +215,7 @@ $(document).ready(function(){
         dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
 
     })();
-
+*/
     /* ------------------------------------- */
     /* 5. PhotoSwipe Gallery Init .......... */
     /* ------------------------------------- */
