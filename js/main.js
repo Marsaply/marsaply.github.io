@@ -86,6 +86,13 @@ $(document).ready(function(){
                 callbacks:false
             });
         }, 350);
+
+        ga('send', {
+          hitType: 'event',
+          eventCategory: 'navigation',
+          eventAction: 'learn-more',
+          eventLabel: 'Learn more'
+        });
     });
 
     $('button#close-more-info').on( "click", function() {
